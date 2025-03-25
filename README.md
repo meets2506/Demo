@@ -3,15 +3,15 @@
 
 ## Overview
 
-This system delivers a lightweight, on-device AI-powered Q&A experience. It integrates a compact transformer-based language model (QwenNano LLM), semantic and keyword-based search technologies, and real-time natural language understanding. Designed for edge devices, it enables fast and private inference with optional voice input through a Whisper-style speech-to-text module.
+This system delivers a lightweight, on-device AI-powered Q&A experience. It integrates a compact transformer-based language model (QwenNano LLM), semantic and keyword-based search technologies, and real-time natural language understanding. Designed for edge devices, it enables fast and private inference with optional voice input through a Whisper-style (OpenAI) speech-to-text module.
 
 ---
 
 ## ✅ Features
 
-- 🤖 **Embedded LLM:** Compact transformer model optimized for on-device inference
-- 🔍 **Hybrid Search:** Combines semantic vector search and BM25 keyword-based retrieval
-- 🗣️ **Voice Support:** Whisper-style speech-to-text integration for spoken input
+- 🤖 **On-Device LLM Inference:** Utilizes QwenNano — a compact, transformer-based language model optimized for real-time performance on edge devices.
+- 🔍 **Context-Aware Search:** Combines semantic vector search and traditional BM25 keyword matching for high-relevance responses.
+- 🗣️ **Voice Query Support:** Integrates Whisper-style (OpenAI) speech-to-text for natural spoken input.
 
 ---
 
