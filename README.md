@@ -21,18 +21,7 @@ This system delivers a lightweight, on-device AI-powered Q&A experience. It util
 ## 📂 Architecture Summary
 
 ```
-User (Android App)
-     |
-     |---> libWhisper.so (Speech to Text)
-     |---> libLlama.so (Inference Engine)
-     |         |
-     |         +---> QwenNano LLM
-     |
-     |---> libAppServer.so
-               |
-               +---> Vector Database (Semantic Search)
-               +---> BM25 Database (Keyword Search)
-               +---> Admin Portal (Company/User Management)
+User Input | |---> Voice-to-Text (Whisper STT) |---> Embedded Inference Engine | | | +---> QwenNano LLM | |---> Backend Services | +---> Vector Search Engine +---> BM25 Document Search
 ```
 
 ---
